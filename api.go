@@ -53,7 +53,7 @@ func (s *APIServer) Run() {
 
 	router.HandleFunc("/account", makeHTTPHandleFunc(s.handleAccount))
 
-	log.Panicln("API Server running on port: ", s.listenAddr)
+	log.Println("API Server running on port: ", s.listenAddr)
 
 	http.ListenAndServe(s.listenAddr, router)
 }

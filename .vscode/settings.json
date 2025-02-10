@@ -1,0 +1,15 @@
+{
+    "makefile.configureOnOpen": false,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "0.0.0.0",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "database": "go_proj2_pdb",
+            "username": "postgres",
+            "password": "password1"
+        }
+    ]
+}
